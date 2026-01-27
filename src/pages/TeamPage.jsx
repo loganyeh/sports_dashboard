@@ -178,71 +178,72 @@ function TeamPage(){
                     <div className="border-2 border-black h-300 w-1/5 flex flex-col items-center">
 
                         {/* STANDINGS */}
-                        <div className="border-2 border-red-600 h-75 w-80 my-2 mr-5 rounded-xl">
-                            <div className="border-2 border-black h-1/5 w-full">2025 NL East Standings</div>
-                            <div className="border-2 border-black h-3/5 w-full">
-                                <div className="border-2 border-red-600 h-1/6 w-full flex">
-                                    <div className="border border-black h-full w-2/6">Team</div>
-                                    <div className="border border-black h-full w-4/6 flex justify-center items-center">
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">W</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">L</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">PCT</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">GB</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">STRK</div>
+                        <div className="border border-black h-auto w-80 my-2 mr-5 rounded-xl">
+                            <div className="border-b border-gray-300 h-15 w-full flex justify-center items-center font-medium">2025 NL East Standings</div>
+                            <div className="h-auto w-full flex flex-col justify-between">
+                                <div className="border-b border-gray-300 h-8 w-full flex text-sm text-gray-800 font-semibold">
+                                    <div className="h-full w-2/6 pl-2 flex justify-start items-center">TEAM</div>
+                                    <div className="h-full w-4/6 flex justify-center items-center">
+                                        <div className="h-full w-1/5 flex justify-center items-center">W</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">L</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">PCT</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">GB</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">STRK</div>
                                     </div>
                                 </div>
-                                <div className="border-2 border-red-600 h-1/6 w-full flex">
-                                    <div className="border border-black h-full w-2/6 text-blue-600">Philadephia</div>
-                                    <div className="border border-black h-full w-4/6 flex justify-center items-center">
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">96</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">66</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">.593</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">-</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">W1</div>
+                                <div className="border-b border-gray-300 h-8 w-full flex text-xs">
+                                    <div className="h-full w-2/6 pl-2 flex justify-start items-center text-sm text-blue-600"><span className="hover:text-blue-800 cursor-pointer">Philadelphia</span></div>
+                                    <div className="h-full w-4/6 flex justify-center items-center">
+                                        <div className="h-full w-1/5 flex justify-center items-center">96</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">66</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">.593</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">-</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">W1</div>
                                     </div>
                                 </div>
-                                <div className="border-2 border-red-600 h-1/6 w-full flex">
-                                    <div className="border border-black h-full w-2/6 text-blue-600">NY Mets</div>
-                                    <div className="border border-black h-full w-4/6 flex justify-center items-center">
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">83</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">79</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">.512</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">13</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">L1</div>
+                                <div className="border-b border-gray-300 h-8 w-full flex bg-gray-200 text-xs">
+                                    <div className="h-full w-2/6 pl-2 flex justify-start items-center text-sm text-blue-600"><span className="hover:text-blue-800 cursor-pointer">NY Mets</span></div>
+                                    <div className="h-full w-4/6 flex justify-center items-center">
+                                        <div className="h-full w-1/5 flex justify-center items-center">96</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">66</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">.593</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">-</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">W1</div>
                                     </div>
                                 </div>
-                                <div className="border-2 border-red-600 h-1/6 w-full flex">
-                                    <div className="border border-black h-full w-2/6 text-blue-600">Miami</div>
-                                    <div className="border border-black h-full w-4/6 flex justify-center items-center">
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">79</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">83</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">.488</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">17</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">W1</div>
+                                <div className="border-b border-gray-300 h-8 w-full flex text-xs">
+                                    <div className="h-full w-2/6 pl-2 flex justify-start items-center text-sm text-blue-600"><span className="hover:text-blue-800 cursor-pointer">Miami</span></div>
+                                    <div className="h-full w-4/6 flex justify-center items-center">
+                                        <div className="h-full w-1/5 flex justify-center items-center">96</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">66</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">.593</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">-</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">W1</div>
                                     </div>
                                 </div>
-                                <div className="border-2 border-red-600 h-1/6 w-full flex font-bold">
-                                    <div className="border border-black h-full w-2/6 text-blue-600">Atlanta</div>
-                                    <div className="border border-black h-full w-4/6 flex justify-center items-center">
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">76</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">86</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">.469</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">20</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">W1</div>
+                                <div className="border-b border-gray-300 h-8 w-full flex bg-gray-200 text-xs font-bold">
+                                    <div className="h-full w-2/6 pl-2 flex justify-start items-center text-sm text-blue-600"><span className="hover:text-blue-800 cursor-pointer">Atlanta</span></div>
+                                    <div className="h-full w-4/6 flex justify-center items-center">
+                                        <div className="h-full w-1/5 flex justify-center items-center">96</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">66</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">.593</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">-</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">W1</div>
                                     </div>
                                 </div>
-                                <div className="border-2 border-red-600 h-1/6 w-full flex">
-                                    <div className="border border-black h-full w-2/6 text-blue-600">Washington</div>
-                                    <div className="border border-black h-full w-4/6 flex justify-center items-center">
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">66</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">96</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">.407</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">30</div>
-                                        <div className="border border-black h-full w-1/5 flex justify-center items-center">L1</div>
+                                <div className="border-b border-gray-300 h-8 w-full flex text-xs">
+                                    <div className="h-full w-2/6 pl-2 flex justify-start items-center text-sm text-blue-600"><span className="hover:text-blue-800 cursor-pointer">Washington</span></div>
+                                    <div className="h-full w-4/6 flex justify-center items-center">
+                                        <div className="h-full w-1/5 flex justify-center items-center">96</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">66</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">.593</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">-</div>
+                                        <div className="h-full w-1/5 flex justify-center items-center">W1</div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            <div className="border-2 border-black h-1/5 w-full">Full Standings</div>
+                            <div className="h-10 w-full flex justify-center items-center text-blue-600"><span className="hover:text-blue-900 cursor-pointer">Full Standings</span></div>
                         </div>
 
                         {/* FIND TICKETS */}
