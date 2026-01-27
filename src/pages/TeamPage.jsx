@@ -246,20 +246,34 @@ function TeamPage(){
                         </div>
 
                         {/* FIND TICKETS */}
-                        <div className="border-2 border-red-600 h-64 w-80 my-2 mr-5 rounded-xl">
-                            <div className="border border-black h-13 w-full">Find Tickets</div>
-                            <div className="border border-black h-25 w-full">Braves @ Rays</div>
-                            <div className="border border-black h-13 w-full">Buy Tickets</div>
-                            <div className="border border-black h-13 w-full">Other Games</div>
+                        <div className="border border-black h-auto w-80 my-2 mr-5 rounded-xl">
+                            <div className="border-b border-dashed border-gray-300 h-13 w-full flex">
+                                <div className="h-full w-1/2 pl-4 flex justify-start items-center font-medium">Find Tickets</div>
+                                <div className="h-full w-1/2">
+                                    <div className="h-1/2 w-full pr-8 flex justify-end items-end text-xs text-gray-400"><span className="cursor-pointer">Powered By</span></div>
+                                    <div className="h-1/2 w-full pr-4 flex justify-end items-center text-sm text-blue-900 font-bold"><span className="cursor-pointer">Vivid Seats</span></div>
+                                </div>
+                            </div>
+
+                            <div className="border-b border-gray-300 h-auto w-full">
+                                <div className="h-7 w-full flex justify-center items-center text-lg font-semibold">Braves @ Rays</div>
+                                <div className="h-7 w-full flex justify-center items-center text-sm text-gray-400 font-light">Charlotte Sports Park - Sat 2/21/26, 1:05</div>
+                                <div className="h-7 w-full flex justify-center items-center text-sm text-blue-600"><span className="hover:text-blue-900 hover:underline cursor-pointer">Tickets as low as $13</span></div>
+                            </div>
+                            <div className="border-b border-gray-300 h-10 w-full flex justify-center items-center text-sm"><span>Buy <span className="text-blue-600 hover:text-blue-900 hover:underline cursor-pointer" >Braves tickets</span> with <span className="text-blue-600 hover:text-blue-900 hover:underline cursor-pointer" >VividSeats</span></span></div>
+                            <div className="h-13 w-full flex justify-around items-center">
+                                <div className="h-full w-35 flex justify-end items-center text-md font-light">Other Games</div>
+                                <div className="border border-gray-400 h-8 w-38 flex justify-center items-center bg-gray-50 text-xs rounded-2xl hover:bg-white cursor-pointer">Search by Team<i className='bx bx-chevron-down text-lg pl-1 text-blue-600'></i></div>
+                            </div>
                         </div>
 
 
                         {/* TEAM STATS */}
-                        <div className="border border-black h-86 w-80 my-2 mr-5 bg-white rounded-xl">
+                        <div className="border border-black h-auto w-80 my-2 mr-5 bg-white rounded-xl">
                             <div className="h-12 w-full pl-4 py-4 flex justify-left items-center font-medium">2025 Team Stats</div>
                             <div className="h-13 w-full flex">
                                 <div className="border-b-3 border-red-700 h-full w-1/2 flex justify-center items-center font-semibold cursor-pointer">Batting</div>
-                                <div className="border-b border-gray-300 h-full w-1/2 flex justify-center items-center font-semibold text-gray-400 cursor-pointer">Pitching</div>
+                                <div className="border-b border-gray-300 h-full w-1/2 flex justify-center items-center font-semibold text-gray-400 hover:border-b-3 hover:border-red-700 hover:text-black hover:font-bold cursor-pointer">Pitching</div>
                             </div>
                             <div className="h-50 w-full flex flex-wrap">
                                 <div className="border-r border-gray-300 h-1/2 w-1/2 flex flex-col justify-center items-center">
@@ -284,10 +298,10 @@ function TeamPage(){
                                 </div>
                             </div>
 
-                            <div className="border-t border-dashed border-gray-300 h-10 w-full flex justify-center items-center text-md text-blue-700 hover:text-blue-900 cursor-pointer">Full Team Stats</div>
+                            <div className="border-t border-dashed border-gray-300 h-10 w-full flex justify-center items-center text-md text-blue-700"><span className="hover:text-blue-900 hover:underline cursor-pointer">Full Team Stats</span></div>
 
                         </div>
-                        
+
                     </div>
 
                 </div>
