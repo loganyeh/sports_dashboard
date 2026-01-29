@@ -145,30 +145,32 @@ function TeamPage(){
                     </div>
 
                     {/* articles */}
-                    <div className="border-2 border-black h-auto w-3/5">
-                        <div className="border-2 border-red-600 h-100 w-full mt-2 rounded-xl flex flex-col items-center">
+                    <div className="h-auto w-3/5">
+                        <div className="border border-black h-auto w-full mt-2 rounded-xl flex flex-col items-center">
                             {/* top half */}
-                            <div className="border-2 border-blue-600 h-1/5 w-275 flex">
-                                <div className="border-2 border-black h-full w-2/12 flex">
-                                    <div className="border-2 border-red-600 h-full w-1/2">LOGO</div>
-                                    <div className="border-2 border-red-600 h-full w-1/2">
-                                        <div className="border-2 border-black h-1/2 w-full">BRAVES</div>
-                                        <div className="border-2 border-black h-1/2 w-full">MLB</div>
+                            <div className="h-auto w-275 flex">
+                                <div className="h-auto w-46 flex">
+                                    <div className="h-20 w-23 flex justify-center items-center bg-cover bg-center"><img src="/images/braves.jpg" alt="braves logo" className="h-16 w-16" /></div>
+                                    <div className="h-20 w-1/2">
+                                        <div className="h-1/2 w-full flex justify-start items-end text-lg font-medium">BRAVES</div>
+                                        <div className="h-1/2 w-full flex justify-start items-start text-sm font-normal">MLB</div>
                                     </div>
                                 </div>
-                                <div className="border-2 border-black h-full w-10/12"></div>
+                                <div className="h-full w-10/12"></div>
                             </div>
 
                             {/* bottom half */}
-                            <div className="border-2 border-red-600 h-4/5 w-full flex justify-center items-center">
-                                <div className="border-2 border-black h-72 w-275 rounded-xl">
-                                    <div className="border-2 border-black h-9/12 w-full bg-gray-50"></div>
-                                    <div className="border-2 border-black h-3/12 w-full">
-                                        <div className="border-2 border-red-600 h-1/2 w-full">ARTICLE TITLE</div>
-                                        <div className="border-2 border-red-600 h-1/2 w-full flex">
-                                            <div>TIME</div>
-                                            <div className="mx-2">*</div>
-                                            <div>AUTHORS</div>
+                            <div className="h-auto w-full mb-4 flex justify-center items-center">
+                                <div className="border border-black h-auto w-275 rounded-xl shadow-md hover:text-blue-800 cursor-pointer">
+                                    <div className="border-b-4 border-gray-400 h-110 w-full"><img src="/images/article_img1.jpg" alt="article" className="h-full w-full rounded-t-xl"/></div>
+                                    <div className="h-18 w-full">
+                                        <div className="h-9 w-full pl-2 flex justify-start items-center text-xl font-medium">
+                                            <span>Just missed the top 100? No problem! Rookie of the Year candidates, breakout prospects from Nos. 101 to 200</span>
+                                        </div>
+                                        <div className="h-9 w-full flex justify-start items-center text-sm text-gray-600">
+                                            <span className="h-full ml-2 flex justify-center items-center">13h</span>
+                                            <span className="h-full mx-2 flex justify-center items-center">.</span>
+                                            <span className="h-full flex justify-center items-center">Kiley McDaniel</span>
                                         </div>
                                     </div>
                                 </div>
@@ -177,7 +179,7 @@ function TeamPage(){
                     </div>
 
                     {/* right body */}
-                    <div className="border-2 border-black h-300 w-1/5 flex flex-col items-center">
+                    <div className="h-300 w-1/5 flex flex-col items-center">
 
                         {/* STANDINGS */}
                         <div className="border border-black h-auto w-80 my-2 mr-5 rounded-xl">
