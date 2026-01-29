@@ -105,40 +105,42 @@ function TeamPage(){
 
 
                     {/* schedule */}
-                    <div className="border-2 border-black h-100 w-1/5 flex justify-center">
-                        <div className="border-2 border-red-600 h-80 w-70 mt-2 ml-14 rounded-xl">
-                            <div className="border-2 border-red-600 h-1/6 w-full">2026 Schedule</div>
-                            <div className="border-2 border-red-600 h-4/6 w-full flex flex-col justify-around">
-                                <div className="border-2 border-black h-1/5 w-full">Spring Training</div>
-                                <div className="border-2 border-black h-1/4 w-full flex">
-                                    <div className="border-2 border-red-600 h-full w-1/6">@</div>
-                                    <div className="border-2 border-red-600 h-full w-1/6">LOGO</div>
-                                    <div className="border-2 border-red-600 h-full w-2/6">Orioles</div>
-                                    <div className="border-2 border-red-600 h-full w-2/6">
-                                        <div className="border-2 border-black h-1/2 w-full">2/23</div>
-                                        <div className="border-2 border-black h-1/2 w-full">1:05 PM</div>
+                    <div className="h-100 w-1/5 flex justify-center">
+                        <div className="border border-black h-78 w-65 mt-2 ml-20 rounded-xl">
+                            <div className="h-13 w-full pl-3 flex justify-start items-center font-medium">2026 Schedule</div>
+                            <div className="h-auto w-full bg-gray-200">
+                                <div className="h-10 w-full pl-2 flex justify-start items-center border-y border-gray-300 font-semibold text-xs">SPRING TRAINING</div>
+                                <div className="h-14 w-full flex border-b border-gray-300">
+                                    <div className=" h-full w-1/12 flex justify-end items-center text-sm">@</div>
+                                    <div className=" h-full w-2/12 flex justify-center items-center">O</div>
+                                    <div className=" h-full w-4/12 flex justify-start items-center text-sm font-medium">Orioles</div>
+                                    <div className=" h-full w-6/12">
+                                        <div className="h-1/2 w-full pr-2 flex justify-end items-center text-sm font-medium">2/23</div>
+                                        <div className="h-1/2 w-full pr-2 flex justify-end items-center text-sm font-medium">1:05 PM</div>
                                     </div>
                                 </div>
-                                <div className="border-2 border-black h-1/4 w-full flex">
-                                    <div className="border-2 border-red-600 h-full w-1/6">vs</div>
-                                    <div className="border-2 border-red-600 h-full w-1/6">LOGO</div>
-                                    <div className="border-2 border-red-600 h-full w-2/6">Twins</div>
-                                    <div className="border-2 border-red-600 h-full w-2/6">
-                                        <div className="border-2 border-black h-1/2 w-full">2/22</div>
-                                        <div className="border-2 border-black h-1/2 w-full">1:05 PM</div>
+                                <div className="h-14 w-full flex border-b border-gray-300">
+                                    <div className=" h-full w-1/12 flex justify-end items-center text-sm">@</div>
+                                    <div className=" h-full w-2/12 flex justify-center items-center">O</div>
+                                    <div className=" h-full w-4/12 flex justify-start items-center text-sm font-medium">Orioles</div>
+                                    <div className=" h-full w-6/12">
+                                        <div className="h-1/2 w-full pr-2 flex justify-end items-center text-sm font-medium">2/23</div>
+                                        <div className="h-1/2 w-full pr-2 flex justify-end items-center text-sm font-medium">1:05 PM</div>
                                     </div>
                                 </div>
-                                <div className="border-2 border-black h-1/4 w-full flex">
-                                    <div className="border-2 border-red-600 h-full w-1/6">@</div>
-                                    <div className="border-2 border-red-600 h-full w-1/6">LOGO</div>
-                                    <div className="border-2 border-red-600 h-full w-2/6">Rays</div>
-                                    <div className="border-2 border-red-600 h-full w-2/6">
-                                        <div className="border-2 border-black h-1/2 w-full">2/21</div>
-                                        <div className="border-2 border-black h-1/2 w-full">1:05 PM</div>
+                                <div className="h-14 w-full flex border-b border-gray-300">
+                                    <div className=" h-full w-1/12 flex justify-end items-center text-sm">@</div>
+                                    <div className=" h-full w-2/12 flex justify-center items-center">O</div>
+                                    <div className=" h-full w-4/12 flex justify-start items-center text-sm font-medium">Orioles</div>
+                                    <div className=" h-full w-6/12">
+                                        <div className="h-1/2 w-full pr-2 flex justify-end items-center text-sm font-medium">2/23</div>
+                                        <div className="h-1/2 w-full pr-2 flex justify-end items-center text-sm font-medium">1:05 PM</div>
                                     </div>
                                 </div>
+                                
                             </div>
-                            <div className="border-2 border-red-600 h-1/6 w-full">Full Schedule</div>
+                            <div className="h-13 w-full flex justify-center items-center font-medium text-md text-blue-600"><span className="hover:text-blue-900 cursor-pointer">Full Schedule</span></div>
+
                         </div>
                     </div>
 
@@ -243,7 +245,7 @@ function TeamPage(){
                                 </div>
                                 
                             </div>
-                            <div className="h-10 w-full flex justify-center items-center text-blue-600"><span className="hover:text-blue-900 cursor-pointer">Full Standings</span></div>
+                            <div className="h-10 w-full flex justify-center items-center text-blue-600 font-medium text-md"><span className="hover:text-blue-900 cursor-pointer">Full Standings</span></div>
                         </div>
 
                         {/* FIND TICKETS */}
@@ -299,7 +301,7 @@ function TeamPage(){
                                 </div>
                             </div>
 
-                            <div className="border-t border-dashed border-gray-300 h-10 w-full flex justify-center items-center text-md text-blue-700"><span className="hover:text-blue-900 hover:underline cursor-pointer">Full Team Stats</span></div>
+                            <div className="border-t border-dashed border-gray-300 h-10 w-full flex justify-center items-center text-md text-blue-700"><span className="hover:text-blue-900 cursor-pointer">Full Team Stats</span></div>
 
                         </div>
 
