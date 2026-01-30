@@ -79,34 +79,37 @@ function TeamPage(){
 
 
 
-                <div id="team-page-header" className="border-2 border-red-600 h-26 w-full flex">
-                    <div className="border-2 border-black h-full w-50">BRAVES LOGO</div>
-                    <div className="border-2 border-black h-full w-60">
-                        <div>ATLANTA BRAVES</div>
-                        <div>Follow 4th in NL East</div>
+                <div id="team-page-header" className="h-auto w-full flex">
+                    <div className="h-auto w-40 flex justify-end items-center mr-2"><img src="/images/braves.jpg" alt="braves.logo" className="h-30 w-30" /></div>
+                    <div className="h-auto w-auto">
+                        <div className="h-1/2 flex justify-center items-center pt-2 pl-2"><span className="mr-2 text-3xl font-light">ATLANTA</span><span className="text-3xl font-medium"> BRAVES</span></div>
+                        <div className="h-1/2 flex justify-around items-center">
+                            <div className="h-1/2 w-30 flex justify-center items-center bg-blue-500 text-white font-medium rounded-xl hover:bg-blue-600 cursor-pointer">Follow</div> 
+                            <div className="h-full w-24 flex justify-center items-center text-sm font-light">4th in NL East</div>
+                        </div>
                     </div>
                 </div>
 
-                <div id="team-tabs" className="border-2 border-red-600 h-14 w-full flex">
-                    <div className="border-2 border-black h-full w-25 flex justify-center items-center">Home</div>
-                    <div className="border-2 border-black h-full w-25 flex justify-center items-center">Stats</div>
-                    <div className="border-2 border-black h-full w-25 flex justify-center items-center">Schedule</div>
-                    <div className="border-2 border-black h-full w-25 flex justify-center items-center">Roster</div>
-                    <div className="border-2 border-black h-full w-25 flex justify-center items-center">Depth Chart</div>
-                    <div className="border-2 border-black h-full w-25 flex justify-center items-center">Splits</div>
-                    <div className="border-2 border-black h-full w-25 flex justify-center items-center">Injuries</div>
-                    <div className="border-2 border-black h-full w-25 flex justify-center items-center">Transactions</div>
-                    <div className="border-2 border-black h-full w-25 flex justify-center items-center">Tickets</div>
+                <div id="team-tabs" className="border-t border-gray-200 h-14 w-full flex font-light shadow-md">
+                    <div className="border-b-4 border-red-700 h-full w-25 flex justify-center items-center cursor-pointer"><span className="">Home</span></div>
+                    <div className="h-full w-25 flex justify-center items-center hover:border-b-4 hover:border-red-700 cursor-pointer"><span className="">Stats</span></div>
+                    <div className="h-full w-25 flex justify-center items-center hover:border-b-4 hover:border-red-700 cursor-pointer"><span className="">Schedule</span></div>
+                    <div className="h-full w-25 flex justify-center items-center hover:border-b-4 hover:border-red-700 cursor-pointer"><span className="">Roster</span></div>
+                    <div className="h-full w-25 flex justify-center items-center hover:border-b-4 hover:border-red-700 cursor-pointer"><span className="">Depth Chart</span></div>
+                    <div className="h-full w-25 flex justify-center items-center hover:border-b-4 hover:border-red-700 cursor-pointer"><span className="">Splits</span></div>
+                    <div className="h-full w-25 flex justify-center items-center hover:border-b-4 hover:border-red-700 cursor-pointer"><span className="">Injuries</span></div>
+                    <div className="h-full w-25 flex justify-center items-center hover:border-b-4 hover:border-red-700 cursor-pointer"><span className="">Transactions</span></div>
+                    <div className="h-full w-25 flex justify-center items-center hover:border-b-4 hover:border-red-700 cursor-pointer"><span className="">Tickets</span></div>
                 </div>
 
 
                 {/* team body of page */}
-                <div id="team-body-page" className="border-2 border-blue-600 h-auto w-full flex">
+                <div id="team-body-page" className="h-auto w-full flex">
 
 
                     {/* schedule */}
                     <div className="h-100 w-1/5 flex justify-center">
-                        <div className="border border-black h-78 w-65 mt-2 ml-20 rounded-xl">
+                        <div className="border border-black h-78 w-65 mt-4 ml-20 rounded-xl">
                             <div className="h-13 w-full pl-3 flex justify-start items-center font-medium">2026 Schedule</div>
                             <div className="h-auto w-full bg-gray-200">
                                 <div className="h-10 w-full pl-2 flex justify-start items-center border-y border-gray-300 font-semibold text-xs">SPRING TRAINING</div>
@@ -146,7 +149,7 @@ function TeamPage(){
 
                     {/* articles */}
                     <div className="h-auto w-3/5">
-                        <div className="border border-black h-auto w-full mt-2 rounded-xl flex flex-col items-center">
+                        <div className="border border-black h-auto w-full mt-4 rounded-xl flex flex-col items-center">
                             {/* top half */}
                             <div className="h-auto w-275 flex">
                                 <div className="h-auto w-46 flex">
@@ -182,7 +185,7 @@ function TeamPage(){
                     <div className="h-300 w-1/5 flex flex-col items-center">
 
                         {/* STANDINGS */}
-                        <div className="border border-black h-auto w-80 my-2 mr-5 rounded-xl">
+                        <div className="border border-black h-auto w-80 mt-4 mb-2 mr-5 rounded-xl">
                             <div className="border-b border-gray-300 h-15 w-full flex justify-center items-center font-medium">2025 NL East Standings</div>
                             <div className="h-auto w-full flex flex-col justify-between">
                                 <div className="border-b border-gray-300 h-8 w-full flex text-sm text-gray-800 font-semibold">
