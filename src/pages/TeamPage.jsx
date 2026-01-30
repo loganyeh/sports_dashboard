@@ -3,47 +3,45 @@ function TeamPage(){
 
     return(
         <>
-            <div id="screen" className="h-screen w-screen border-2 border-red-600">
+            <div id="screen" className="h-screen w-screen">
 
                 {/* full scoreboard */}
-                <div id="full-scoreboard" className="border-2 border-red-600 h-18 w-full flex">
-                    <div className="h-full w-50 flex">
-                        <div id="sports-league-dropdown" className="border-2 border-black h-full w-1/2 flex justify-center items-center">
-                            <div className="border-2 border-red-600 h-8 w-15 flex justify-center items-center rounded-xl">MLB</div>
+                <div id="full-scoreboard" className="h-18 w-full flex">
+                    <div className="h-full w-auto flex">
+                        <div id="sports-league-dropdown" className="border-r border-gray-400 h-full w-30 flex justify-center items-center">
+                            <div className="border border-gray-400 h-8 w-18 flex justify-center items-center text-sm rounded-xl">MLB<i className='bx bx-chevron-down text-lg text-blue-400' ></i></div>
                         </div>
-                        <div id="date" className="border-2 border-black h-full w-1/2 flex justify-center items-center">
-                            <div className="border-2 border-red-600 h-8 w-15 flex justify-center items-center rounded-xl">Feb 20</div>
+                        <div id="sports-league-dropdown" className="border-r border-gray-400 h-full w-30 flex justify-center items-center">
+                            <div className="border border-gray-400 h-8 w-18 flex justify-center items-center text-sm rounded-xl">Feb 20<i className='bx bx-chevron-down text-lg text-blue-400' ></i></div>
                         </div>
                     </div>
 
                     {/* games */}
-                    <div className="border-2 border-blue-600 h-full w-375 flex">
-                        <div className="border-2 border-red-600 h-full w-30">
-                            <div className="border-2 border-red-600 h-1/3 w-full">
+                    <div className="h-full w-375 flex">
+                        <div className="border-r border-gray-400 h-full w-40 p-1">
+                            <div className="h-1/3 w-full flex justify-start items-center text-sm font-medium">
                                 <span>2/20 - 1:05 PM</span>
-                                <span></span>
                             </div>
-                            <div className="border-2 border-red-600 h-1/3 w-full flex justify-between">
-                                <div className="flex">
-                                    <div>LOGO</div>
-                                    <div>NYY</div>
+                            <div className="h-1/3 w-full flex justify-between">
+                                <div className="flex justify-center items-center">
+                                    <div className="flex justify-center items-center mr-2"><img src="images/braves.jpg" alt="" className="h-4 w-4 flex justify-center items-center"/></div>
+                                    <div className="text-sm font-medium">NYY</div>
                                 </div>
-                                <div>0-0</div>
+                                <div className="flex justify-center items-center mr-2 text-xs">0-0</div>
                             </div>
-                            <div className="border-2 border-red-600 h-1/3 w-full flex justify-between">
-                                <div className="flex">
-                                    <div>LOGO</div>
-                                    <div>BAL</div>
+                            <div className="h-1/3 w-full flex justify-between">
+                                <div className="flex justify-center items-center">
+                                    <div className="flex justify-center items-center mr-2"><img src="images/braves.jpg" alt="" className="h-4 w-4 flex justify-center items-center"/></div>
+                                    <div className="text-sm font-medium">BAL</div>
                                 </div>
-                                <div>0-0</div>
+                                <div className="flex justify-center items-center mr-2 text-xs">0-0</div>
                             </div>
                         </div>
 
                     </div>
 
-                    <div className="border-2 border-blue-600 h-full w-53 flex justify-center items-center">
-                        Full Scoreboard 
-                    </div>
+                    <div className="border-l border-gray-400 h-full w-52 flex justify-center items-center text-sm font-light hover:text-blue-600 cursor-pointer">Full Scoreboard<i className='bx bxs-chevrons-right pl-2'></i></div>
+
                 </div>
 
 
