@@ -48,41 +48,40 @@ function TeamPage(){
 
 
                 {/* sports-tab */}
-                <div id="sport-tabs" className="border-2 border-red-600 h-15 w-full flex">
-                    <div className="h-full w-1/2 flex">
-                        <div className="border-2 border-black h-full w-50 flex justify-end items-center bg-red-600 text-white text-4xl">ESPN</div>
-                        <div className="border-2 border-black h-full w-190 flex justify-around items-center text-xl">
-                            <span>NFL</span>
-                            <span>NBA</span>
-                            <span>NCAAF</span>
-                            <span>NCAAB</span>
-                            <span>NCAAW</span>
-                            <span>NHL</span>
-                            <span>Soccer</span>
-                            <span>MLB</span>
-                            <span>More Sports</span>
+                <div id="sport-tabs" className="h-auto w-full flex text-white bg-gray-900">
+                    <div className="h-auto w-1/2 flex">
+                        <div className="h-12 w-50 pr-4 flex justify-end items-center bg-red-600 text-white text-4xl font-bold"><span>ESPN</span></div>
+                        <div className="h-12 w-190 flex justify-around items-center text-sm font-medium">
+                            <span className="cursor-pointer">NFL</span>
+                            <span className="cursor-pointer">NBA</span>
+                            <span className="cursor-pointer">NCAAF</span>
+                            <span className="cursor-pointer">NCAAB</span>
+                            <span className="cursor-pointer">NCAAW</span>
+                            <span className="cursor-pointer">NHL</span>
+                            <span className="cursor-pointer">Soccer</span>
+                            <span className="cursor-pointer">MLB</span>
+                            <span className="cursor-pointer">More Sports</span>
                         </div>
                     </div>
 
-                    <div className="h-full w-1/2 flex">
-                        <div className="border-2 border-black h-full w-1/2"></div>
-                        <div className="border-2 border-black h-full w-1/2 flex justify-around items-center">
-                            <div>Watch</div>
-                            <div>Fantasy</div>
-                            <div>Where to Watch</div>
-                            <div>O</div>
-                            <div>O</div>
+                    <div className="h-12 w-1/2 flex">
+                        {/* filler div */}
+                        <div className="h-full w-1/2"></div>
+                        <div className="h-full w-1/2 flex justify-around items-center text-sm font-medium">
+                            <div><span className="flex justify-center items-center cursor-pointer"><i className='bx bx-caret-right-square flex justify-center items-center mr-1 text-xl' ></i>Watch</span></div>
+                            <div><span className="flex justify-center items-center cursor-pointer"><i className='bx bx-shield flex justify-center items-center mr-1 text-xl' ></i>Fantasy</span></div>
+                            <div><span className="flex justify-center items-center cursor-pointer"><i className='bx bx-tv text-xl mr-1' ></i>Where to Watch</span></div>
+                            <div className="flex justify-center items-center"><i className='bx bx-search text-xl cursor-pointer'></i></div>
+                            <div className="flex justify-center items-center"><i className='bx bxs-user-circle text-xl cursor-pointer'></i></div>
                         </div>
                     </div>
 
                 </div>
 
-
-
                 <div id="team-page-header" className="h-auto w-full flex">
-                    <div className="h-auto w-40 flex justify-end items-center mr-2"><img src="/images/braves.jpg" alt="braves.logo" className="h-30 w-30" /></div>
+                    <div className="h-auto w-40 flex justify-end items-center mr-2"><img src="/images/braves.jpg" alt="braves.logo" className="h-28 w-28 p-2" /></div>
                     <div className="h-auto w-auto">
-                        <div className="h-1/2 flex justify-center items-center pt-2 pl-2"><span className="mr-2 text-3xl font-light">ATLANTA</span><span className="text-3xl font-medium"> BRAVES</span></div>
+                        <div className="h-1/2 flex justify-center items-center pt-2 pl-2"><span className="mr-2 text-3xl font-light">ATLANTA</span><span className="text-3xl font-medium">BRAVES</span></div>
                         <div className="h-1/2 flex justify-around items-center">
                             <div className="h-1/2 w-30 flex justify-center items-center bg-blue-500 text-white font-medium rounded-xl hover:bg-blue-600 cursor-pointer">Follow</div> 
                             <div className="h-full w-24 flex justify-center items-center text-sm font-light">4th in NL East</div>
@@ -90,7 +89,7 @@ function TeamPage(){
                     </div>
                 </div>
 
-                <div id="team-tabs" className="border-t border-gray-200 h-14 w-full flex font-light shadow-md">
+                <div id="team-tabs" className="border-y border-gray-200 h-14 w-full flex font-light shadow-md">
                     <div className="border-b-4 border-red-700 h-full w-25 flex justify-center items-center cursor-pointer"><span className="">Home</span></div>
                     <div className="h-full w-25 flex justify-center items-center hover:border-b-4 hover:border-red-700 cursor-pointer"><span className="">Stats</span></div>
                     <div className="h-full w-25 flex justify-center items-center hover:border-b-4 hover:border-red-700 cursor-pointer"><span className="">Schedule</span></div>
@@ -115,7 +114,7 @@ function TeamPage(){
                                 <div className="h-10 w-full pl-2 flex justify-start items-center border-y border-gray-300 font-semibold text-xs">SPRING TRAINING</div>
                                 <div className="h-14 w-full flex border-b border-gray-300">
                                     <div className=" h-full w-1/12 flex justify-end items-center text-sm">@</div>
-                                    <div className=" h-full w-2/12 flex justify-center items-center">O</div>
+                                    <div className=" h-full w-2/12 flex justify-center items-center"><img src="images/braves.jpg" alt="" className="h-8 w-8" /></div>
                                     <div className=" h-full w-4/12 flex justify-start items-center text-sm font-medium">Orioles</div>
                                     <div className=" h-full w-6/12">
                                         <div className="h-1/2 w-full pr-2 flex justify-end items-center text-sm font-medium">2/23</div>
@@ -124,7 +123,7 @@ function TeamPage(){
                                 </div>
                                 <div className="h-14 w-full flex border-b border-gray-300">
                                     <div className=" h-full w-1/12 flex justify-end items-center text-sm">@</div>
-                                    <div className=" h-full w-2/12 flex justify-center items-center">O</div>
+                                    <div className=" h-full w-2/12 flex justify-center items-center"><img src="images/braves.jpg" alt="" className="h-8 w-8" /></div>
                                     <div className=" h-full w-4/12 flex justify-start items-center text-sm font-medium">Orioles</div>
                                     <div className=" h-full w-6/12">
                                         <div className="h-1/2 w-full pr-2 flex justify-end items-center text-sm font-medium">2/23</div>
@@ -133,7 +132,7 @@ function TeamPage(){
                                 </div>
                                 <div className="h-14 w-full flex border-b border-gray-300">
                                     <div className=" h-full w-1/12 flex justify-end items-center text-sm">@</div>
-                                    <div className=" h-full w-2/12 flex justify-center items-center">O</div>
+                                    <div className=" h-full w-2/12 flex justify-center items-center"><img src="images/braves.jpg" alt="" className="h-8 w-8" /></div>
                                     <div className=" h-full w-4/12 flex justify-start items-center text-sm font-medium">Orioles</div>
                                     <div className=" h-full w-6/12">
                                         <div className="h-1/2 w-full pr-2 flex justify-end items-center text-sm font-medium">2/23</div>
