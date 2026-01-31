@@ -9,7 +9,7 @@ function DepthChart() {
       <div className="h-screen w-screen">
 
         {/* components */}
-        <Ticker />
+        <Ticker /> 
         <MainNavBar />
         <TeamLogoHeader />
         <PageNavBar />
